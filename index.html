@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Kipchumba - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#home">DK</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Daniel Kipchumba">Daniel Kipchumba</h1>
+                <div class="typewriter">
+                    <span id="typewriter-text"></span><span class="cursor" style="display: none;">_</span>
+                </div>
+                <p class="hero-description">I build exceptional digital experiences that make an impact.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                    <a href="#projects" class="btn secondary-btn">View My Work</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/dtuwei" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dan-t-549700174" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/dantuwei22" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:dantuwei22@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <div class="mouse">
+                    <span></span>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="/dt.jpeg?height=400&width=400" alt="Daniel Kipchumba">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Hello! I'm <span class="highlight">Daniel Kipchumba</span></h3>
+                    <p>I'm a passionate Backend Engineer based in Nairobi, specializing in building exceptional digital experiences. I focus on creating efficient, scalable, and user-friendly solutions.</p>
+                    <p>Throughout my career, I've worked with various technologies and methodologies, always striving to stay at the forefront of industry trends. I believe in continuous learning and applying innovative approaches to solve complex problems.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Location:</span> Nairobi, Kenya
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Degree:</span> BSc in Informatics
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Experience:</span> 5 Years
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email:</span><a style="color: rgb(126, 126, 240);" href="mailto:dantuwei22@gmail.com"> dantuwei22@gmail.com</i></a>
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="btn primary-btn">Download CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Senior Developer</h3>
+                        <h4>Buupass Kenya</h4>
+                        <p>Senior Software Developer at Buupass, optimizing APIs for efficiency and scalability.</p>
+                        <p>Led automation of bus operator ticketing configurations, integrated insurance options, and enhanced system performance by more than 50%.</p>
+                        <p>Secured APIs, and integrated multiple payment gateways.</p>
+                        <p>Built applications in FastAPI, Django, PostgreSQL, MongoDB, and RabbitMQ for high-performance backend solutions.</p>
+                        <div class="tags">
+                            <span>FastAPI</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>MySQL</span>
+                            <span>MongoDB</span>
+                            <span>Redis</span>
+                            <span>RabbitMQ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 - 2022</div>
+                    <div class="timeline-content">
+                        <h3>Backend Developer</h3>
+                        <h4>Pangaea</h4>
+                        <p>Developed and maintained order management system APIs for various platforms using Spring boot and MySQL.</p>
+                        <p>Built a job that processes orders in batches. This reduced processing time by more than 50%.</p>
+                        <p>Did integration to inventory management system.</p>
+                        <p>Engaged in data analytics and real-time monitoring implementation.</p>
+                        <div class="tags">
+                            <span>Spring boot</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2017 - 2019</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Software Developer</h3>
+                        <h4>Freelance</h4>
+                        <p>Developed an E-Commerce application using Python Django, ReactJS and MySQL. The E-Commerce website will serve as a marketplace for products and services in Moi University.</p>
+                        <p>Developed and maintained websites for various clients using vanilla JS, HTML, ReactJS, Tailwind. Some of the websites include:<br/>
+                            <a style="color: rgb(126, 126, 240);" href="http://basetitanium.com" target="_blank" rel="noopener noreferrer">Base Titanium</a><br/>
+                            <a style="color: rgb(126, 126, 240);" href="http://www.kenyachambermines.com" target="_blank" rel="noopener noreferrer">Kenya Chambermines</a><br/>
+                            <a style="color: rgb(126, 126, 240);" href="https://www.diveinkenya.com" target="_blank" rel="noopener noreferrer">Divein Kenya</a>
+                            </p>
+                        <p>Developed Rest APIs for a fiverr client. The API contracts were defined using OpenAPI 3.0 and developed in Python Django. </p>
+                        <p>Developed a Referrals rewards Backend application for a Fiverr client. The application was modeled using the tree data structure and is built using NodeJS and MongoDB. </p>
+                        <div class="tags">
+                            <span>Django</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>ReactJS</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="HTML5">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML5</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="CSS3">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS3</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <h4>React</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Spring Boot">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <h4>Spring Boot</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Node.js">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Node.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Python</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="FastAPI">
+                            <div class="skill-icon"><i class="fas fa-rocket"></i></div>
+                            <h4>FastAPI</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Django">
+                            <div class="skill-icon"><i class="fas fa-python"></i></div>
+                            <h4>Django</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>                
+                        <div class="skill-item" data-skill="SQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MySQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="PostgreSQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="80"></div>
+                            </div>
+                        </div>                
+                        <div class="skill-item" data-skill="MongoDB">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Redis">
+                            <div class="skill-icon"><i class="fas fa-memory"></i></div>
+                            <h4>Redis</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Kafka">
+                            <div class="skill-icon"><i class="fas fa-stream"></i></div>
+                            <h4>Kafka</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <h4>Docker</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="AWS">
+                            <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                            <h4>AWS</h4>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-progress="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <!-- <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured e-commerce platform with payment integration, user authentication, and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="mobile">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>A mobile application for tracking workouts, nutrition, and progress with data visualization.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="web">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management System</h3>
+                        <p>A collaborative task management system with real-time updates, file sharing, and team communication.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="design">
+                    <div class="project-img">
+                        <img src="/placeholder.svg?height=300&width=500" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website Redesign</h3>
+                        <p>A complete redesign of a client's portfolio website with improved UX/UI and performance optimization.</p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently available for freelance work or full-time opportunities as a backend developer. If you have a project that requires scalable, efficient, and well-architected backend solutions, I'd love to hear about it!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>dantuwei22@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+254701800609</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/dtuwei" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/dan-t-549700174" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/dantuwei22" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:dantuwei22@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Daniel Kipchumba" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">DK</a>
+                </div>
+                <p>&copy; 2025 Daniel Kipchumba. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
